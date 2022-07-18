@@ -1,0 +1,11 @@
+<template lang="">
+
+</template>
+<script>
+export default {
+    name
+}
+</script>
+<style lang="">
+    
+</style>
