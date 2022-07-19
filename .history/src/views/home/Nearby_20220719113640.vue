@@ -1,0 +1,148 @@
+<template>
+  <div class="nearby">
+    <h3 class="nearby__title">附近店铺</h3>
+    <div class="nearby__item">
+      <img
+        class="nearby__item__img"
+        src="http://www.dell-lee.com/imgs/vue3/near.png"
+      />
+
+      <div class="nearby__item__content">
+        <div class="nearby__item__content__title">wokao</div>
+        <div class="nearby__item__content__tags">
+          <span class="nearby__item__content__tag">月售10W+</span>
+          <span class="nearby__item__content__tag">评价1000+</span>
+          <span class="nearby__item__content__tag">好评94%</span>
+        </div>
+        <span class="nearby__item__content__highlight">
+          饿了么卡会员尊享满20元减4元券（每月5张）
+        </span>
+      </div>
+    </div>
+    <div class="nearby__item">
+      <img
+        class="nearby__item__img"
+        src="http://www.dell-lee.com/imgs/vue3/near.png"
+      />
+
+      <div class="nearby__item__content">
+        <div class="nearby__item__content__title">wokao</div>
+        <div class="nearby__item__content__tags">
+          <span class="nearby__item__content__tag">月售10W+</span>
+          <span class="nearby__item__content__tag">评价1000+</span>
+          <span class="nearby__item__content__tag">好评94%</span>
+        </div>
+        <span class="nearby__item__content__highlight">
+          饿了么卡会员尊享满20元减4元券（每月5张）
+        </span>
+      </div>
+    </div>
+    <div class="nearby__item">
+      <img
+        class="nearby__item__img"
+        src="http://www.dell-lee.com/imgs/vue3/near.png"
+      />
+
+      <div class="nearby__item__content">
+        <div class="nearby__item__content__title">wokao</div>
+        <div class="nearby__item__content__tags">
+          <span class="nearby__item__content__tag">月售10W+</span>
+          <span class="nearby__item__content__tag">评价1000+</span>
+          <span class="nearby__item__content__tag">好评94%</span>
+        </div>
+        <span class="nearby__item__content__highlight">
+          饿了么卡会员尊享满20元减4元券（每月5张）
+        </span>
+      </div>
+    </div>
+    <div class="nearby__item">
+      <img
+        class="nearby__item__img"
+        src="http://www.dell-lee.com/imgs/vue3/near.png"
+      />
+
+      <div class="nearby__item__content">
+        <div class="nearby__item__content__title">wokao</div>
+        <div class="nearby__item__content__tags">
+          <span class="nearby__item__content__tag">月售10W+</span>
+          <span class="nearby__item__content__tag">评价1000+</span>
+          <span class="nearby__item__content__tag">好评94%</span>
+        </div>
+        <span class="nearby__item__content__highlight">
+          饿了么卡会员尊享满20元减4元券（每月5张）
+        </span>
+      </div>
+    </div>
+    <div class="nearby__item">
+      <img
+        class="nearby__item__img"
+        src="http://www.dell-lee.com/imgs/vue3/near.png"
+      />
+
+      <div class="nearby__item__content">
+        <div class="nearby__item__content__title">wokao</div>
+        <div class="nearby__item__content__tags">
+          <span class="nearby__item__content__tag">月售10W+</span>
+          <span class="nearby__item__content__tag">评价1000+</span>
+          <span class="nearby__item__content__tag">好评94%</span>
+        </div>
+        <span class="nearby__item__content__highlight">
+          饿了么卡会员尊享满20元减4元券（每月5张）
+        </span>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "Nearby",
+  setup(){
+    const nearbyList = 
+  }
+}
+</script>
+<style lang="scss" scoped>
+@import "@/style/variables.scss";
+.nearby {
+  &__title {
+    font-size: 0.18rem;
+    margin: 0.16rem 0 0.02rem 0;
+    font-weight: normal; //是否加粗字体
+    color: $content-fontcolor;
+  }
+  &__item {
+    display: flex; //不换行
+    padding-top: 0.12rem;
+    &__img {
+      width: 0.6rem;
+      height: 0.6rem;
+      padding-right: 0.16rem;
+    }
+    &__content {
+      padding-bottom: 0.12rem;
+      border-bottom: 0.01rem solid $content-bgColor;
+      //flex: 1;
+      &__title {
+        font-size: 0.16rem;
+        line-height: 0.22rem;
+        color: $content-fontcolor;
+      }
+      &__tags {
+        margin-top: 0.08rem;
+        font-size: 0.13rem;
+        color: $content-fontcolor;
+        line-height: 0.18rem;
+      }
+      &__tag {
+        padding-right: 0.16rem;
+      }
+      &__highlight {
+        padding: 0.08rem 0 0 0;
+        line-height: 0.18rem;
+        font-size: 0.13rem;
+        color: $content-highlight;
+      }
+    }
+  }
+}
+</style>
